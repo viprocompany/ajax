@@ -1,0 +1,143 @@
+@import url('reset.css');
+body {}
+
+.container {
+  height: auto;
+}
+
+#hello {
+  background-color: #D6FFFF;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #330033;
+  font-family: 'Courier New Bold', Monaco, monospace;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+#content {
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+}
+
+input {
+  height: 40px;
+  width: 50px;
+  margin: 5px 5px;
+  padding: auto;
+}
+
+select {
+  height: 40px;
+}
+
+select #price_select {
+  width: 160px;
+  margin: 5px 10px;
+}
+
+select #sum {
+  width: 80px;
+  margin: 5px 20px;
+}
+
+.btn {
+  height: 45px;
+  width: 150px;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+form {
+  margin: 5px 5px;
+  padding: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.table {
+  overflow: auto;
+  height: 355px;
+  width: auto;
+  border: 1px solid black;
+  margin: auto 10px;
+}
+
+.msg {
+  font-style: 22px;
+  font-weight: 600;
+  text-align: center;
+  color: red;
+}
+
+.prices {
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  width: auto;
+  margin: auto 10px;
+}
+
+.prices input {
+  height: 40px;
+  width: 120px;
+  margin: 5px 5px;
+  padding: auto;
+}
+
+.stocks {
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  width: auto;
+  margin: auto 10px;
+}
+
+.stocks input {
+  height: 40px;
+  width: 120px;
+  margin: 5px 5px;
+  padding: auto;
+}
+
+.peacs {
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  width: auto;
+  margin: auto 10px;
+}
+
+.peacs input {
+  height: 40px;
+  width: 120px;
+  margin: 5px 5px;
+  padding: auto;
+}
+
+.info span {
+  margin: 10px;
+}
+
+.info {
+  text-align: center;
+}
+
+.d-block .errors_name {
+  color: red;
+  text-align: center;
+}
+
+.d-block .errors_name .errors {
+  width: auto;
+  margin: auto 10px;
+  text-align: center;
+}
